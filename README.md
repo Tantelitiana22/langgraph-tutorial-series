@@ -15,13 +15,7 @@ To run this project, you need the following:
 Install all dependencies with:
 
 ```bash
-uv pip install -r requirements.txt
-```
-
-Or manually install the main packages:
-
-```bash
-uv pip install langchain langchain-core langchain-groq langchain-experimental langgraph tavily-python langchain-tavily python-dotenv requests langsmith
+uv sync
 ```
 
 ### Notebook usage
@@ -51,6 +45,6 @@ LANGCHAIN_PROJECT=your_project_name
 
 ## How to run
 
-1. Install dependencies
+1. Install dependencies: `uv sync`
 2. Add your API keys to `.env`
 3. Open and run the notebooks in order for examples and usage
